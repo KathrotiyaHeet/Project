@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title> Uber Eats | Food Delivery and Takeout | Order Online from ...</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .maindiv {
+            display: flex;
+            padding: 20px;
+            background-color: darkslategrey;
+
+        }
+
+        .ubereats {
+            /* background-color: lightslategrey; */
+            width: 80%;
+            height: 50px;
+            font-size: 25px;
+            line-height: 50px;
+            padding-left: 15px;
+            color: white;
+
+        }
+
+        .login {
+            background-color: rgb(227, 185, 80);
+            width: 10%;
+            height: 50px;
+            font-size: 25px;
+            line-height: 50px;
+            padding-left: 15px;
+            border-radius: 40px;
+            text-align: center;
+
+        }
+
+        .signup {
+            background-color: rgb(19, 209, 209);
+            width: 10%;
+            height: 50px;
+            font-size: 25px;
+            line-height: 50px;
+            padding-left: 15px;
+            border-radius: 40px;
+            text-align: center;
+        }
+
+        .navbar {
+            width: 10px;
+        }
+
+        /* ..................................... */
+
+        .image {
+            background-image: url(../image/uberbg.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+            font-size: 30px;
+            padding-top: 8%;
+            padding-left: 5%;
+        }
+
+        input {
+            font-size: 18px;
+            padding: 17px;
+            align-items: center;
+            width: 450px;
+            height: 60px;
+        }
+
+        #delivery_option {
+            padding: 15px;
+            font-size: 18px;
+            height: 60px;
+        }
+
+        button {
+            padding: 17px;
+            color: white;
+            background-color: black;
+            height: 60px;
+            width: 100px;
+            border-radius: 10%;
+        }
+
+        .seaction1,
+        a {
+            font-size: 18px;
+            color: black;
+        }
+
+        #image_01,
+        #image_02,
+        #image_03 {
+            width: 495px;
+            padding-left: 25px;
+        }
+
+        .title-font,
+        .title-font01,
+        .title-font03 {
+            padding-left: 25px;
+        }
+
+        #create,
+        #create01,
+        #create02 {
+            padding-left: 25px;
+        }
+
+        table {
+            /* display: flex; */
+            padding-left: 10px;
+        }
+
+        .name {
+
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            sans-serif;
+
+            padding-left: 20px;
+        }
+
+        #content {
+            padding-left: 1078px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            sans-serif;
+            font-size: 15px;
+        }
+
+        .seaction_01,
+        .seaction_02,
+        .seaction_03,
+        .seaction_04,
+        .seaction_05,
+        .seaction_06 {
+            width: 100%;
+            height: 50px;
+            display: flex;
+        }
+
+        .city_name {
+            display: flex;
+            width: 25%;
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .titel_countries {
+            padding-left: 35px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .view {
+            padding-left: 850px;
+            font-size: 20px;
+        }
+
+        .iframe {
+            text-align: center;
+        }
+
+        .titel_countries {
+            width: 100%;
+            height: 50px;
+            display: flex;
+        }
+
+        .titel_01 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-left: 30px;
+            padding-top: 40px;
+        }
+
+        .letter_uber {
+            font-size: 40px;
+            padding-left: 50px;
+            padding-top: 100px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .apple_store,
+        .play_store {
+            height: 45px;
+            width: 150px;
+        }
+
+        .image_001 {
+            padding-top: 130px;
+            padding-left: 40px;
+        }
+
+        .primary {
+            padding-left: 300px;
+            line-height: 48px;
+            padding-top: 18%;
+            font-size: 20px;
+        }
+
+        .primary_one {
+            padding-left: 200px;
+            line-height: 48px;
+            padding-top: 96px;
+            font-size: 20px;
+
+        }
+
+        .png {
+            width: 50px;
+            padding-top: 50px;
+            padding-left: 25px;
+        }
+
+        .create {
+            padding-left: 655px;
+            display: flex;
+        }
+
+        .footer_02 {
+            padding-top: 50px;
+            padding-left: 350px;
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="ubereats"><i class="fa fa-bars"></i>&nbsp; &nbsp;&nbsp;&nbsp; Uber Eats</div>
+        <div class="login"><i class="fa fa-user"></i> Log in
+        </div>
+        <div class="navbar"></div>
+        <div class="signup">Sign up</div>
+    </div>
+
+    <!-- .........................................................-->
+
+    <div class="image">
+        <div class="input">
+            <h1>Order food to your door</h1>
+        </div> <br>
+        
+        <input type="text" placeholder="enter your address">
+        <select name="delivery_option" id="delivery_option">
+            <option value="Delivery">Delivery</option>
+            <option value="Schedule For later">Schedule For later</option>
+        </select>
+        <button type="submit">Find Food</button> <br> <br>
+        <div class="seaction1">
+            <a href="#">Sign up</a>
+            <span>for your recent addresses</span>
+        </div>
+    </div> <br> <br>
+
+    <table>
+        <tr>
+            <td>
+                <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/88d55f7112efe55f.webp" id="image_01">
+
+                <div class="container">
+                    <div class="lg">
+                        <h1 class="title-font">Feed your employees</h1>
+                        <a href="#" id="create">create a bussiness account</a>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/711d51ca1b458931.webp" id="image_02">
+
+                <div class="container01">
+                    <div class="lg01">
+                        <h1 class="title-font01">Your restaurant, delivered</h1>
+                        <a href="#" id="create01">Add restaurant</a>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/16522a701585873b.webp" id="image_03">
+
+                <div class="container02">
+                    <div class="lg02">
+                        <h1 class="title-font03">Deliver with Uber Eats</h1>
+                        <a href="#" id="create02">Sign up to deliver</a>
+                    </div>
+            </td>
+        </tr>
+    </table>
+    <br> <br>
+    <br> <br>
+
+    <table>
+        <tr>
+            <td>
+                <div class="name">
+                    <h1>Cities Near Me <a href="#" id="content">View all 500+ cities</a></h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br> <br>
+    <div class="iframe">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7383.121608116876!2d72.63011868496308!3d23.182978821877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2b5dea462cc9%3A0x112b23add3c58330!2sUber%20office!5e0!3m2!1sen!2sin!4v1689231659038!5m2!1sen!2sin"
+            width="95%" height="500" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+            class="iframe"></iframe>
+    </div>
+    <br>
+    <hr>
+
+    <div class="seaction_01">
+        <div class="city_name"> <a href="#">Akron</a></div>
+        <div class="city_name"><a href="#">Hartford</a></div>
+        <div class="city_name"> <a href="#">Nashville</a></div>
+        <div class="city_name"><a href="#">Providence</a></div>
+    </div>
+
+    <div class="seaction_02">
+        <div class="city_name"><a href="#">Albuquerque</a></div>
+        <div class="city_name"><a href="#">Houston</a></div>
+        <div class="city_name"><a href="#">New Orleans</a></div>
+        <div class="city_name"><a href="#">Queens</a></div>
+    </div>
+
+    <div class="seaction_03">
+        <div class="city_name"><a href="#">Bridgeport</a></div>
+        <div class="city_name"><a href="#">Indianapolis</a></div>
+        <div class="city_name"><a href="#">Oklahoma City</a></div>
+        <div class="city_name"><a href="#">San Antonio</a></div>
+    </div>
+
+    <div class="seaction_04">
+        <div class="city_name"><a href="#">Concord</a></div>
+        <div class="city_name"><a href="#">McAllen</a></div>
+        <div class="city_name"><a href="#">Omaha</a></div>
+        <div class="city_name"><a href="#">Stony Brook</a></div>
+    </div>
+
+
+    <div class="seaction_05">
+        <div class="city_name"><a href="#">Dayton</a></div>
+        <div class="city_name"><a href="#">Mesa</a></div>
+        <div class="city_name"><a href="#">Orland</a></div>
+        <div class="city_name"><a href="#">Tucson</a></div>
+    </div>
+
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">El Paso</a></div>
+        <div class="city_name"><a href="#">Milwaukee</a></div>
+        <div class="city_name"><a href="#">Plam Bay</a></div>
+        <div class="city_name"><a href="#">West Hollywood</a></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <h1 class="titel_01">Countries with Uber Eats <a href="#" class="view">View all countries</a></h1> <br>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Australia</a></div>
+        <div class="city_name"><a href="#">France</a></div>
+        <div class="city_name"><a href="#">Netherlands</a></div>
+        <div class="city_name"><a href="#">Sweden</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Belgium</a></div>
+        <div class="city_name"><a href="#">Germany </a></div>
+        <div class="city_name"><a href="#">New Zealand</a></div>
+        <div class="city_name"><a href="#">Switzerland</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Canada</a></div>
+        <div class="city_name"><a href="#">Guatemala</a></div>
+        <div class="city_name"><a href="#">Panama</a></div>
+        <div class="city_name"><a href="#">Taiwan (ROC)</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Chile</a></div>
+        <div class="city_name"><a href="#">Chile</a></div>
+        <div class="city_name"><a href="#">Poland</a></div>
+        <div class="city_name"><a href="#">United Kingdom</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Costa Rica</a></div>
+        <div class="city_name"><a href="#">Italy</a></div>
+        <div class="city_name"><a href="#">Portugal</a></div>
+        <div class="city_name"><a href="#">United States</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Dominican Republic</a></div>
+        <div class="city_name"><a href="#">Japan</a></div>
+        <div class="city_name"><a href="#">South Africa</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">Ecuador</a></div>
+        <div class="city_name"><a href="#">Kenya</a></div>
+        <div class="city_name"><a href="#">Spain</a></div>
+    </div>
+
+    <div class="seaction_06">
+        <div class="city_name"><a href="#">El Salvador</a></div>
+        <div class="city_name"><a href="#">Mexico</a></div>
+        <div class="city_name"><a href="#">Sri Lanka</a></div>
+    </div>
+    <br>
+    <br><br>
+    <hr>
+
+    <table>
+        <tr>
+            <td>
+                <div class="list_page">
+                    <div class="heading">
+                        <p class="letter_uber">Uber <b>Eats</b></p>
+                    </div>
+                    <div class="image_001">
+                        <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/783bb4a82e5be29e.svg"
+                            alt="App Store" class="apple_store">
+
+                        <img src="https://d3i4yxtzktqr9n.cloudfront.net/web-eats-v2/163bdc9b0f1e7c9e.png"
+                            alt="Play Store" class="play_store">
+                    </div>
+            </td>
+            <td>
+                <div class="primary">
+                    <div class="al"><a href="#">Get help</a></div>
+                    <div class="al"><a href="#">Buy gift card</a></div>
+                    <div class="al"><a href="#">Add Your resturent</a></div>
+                    <div class="al"><a href="#">Sign up to deliver</a></div>
+                    <div class="al"><a href="#">Create a business account</a></div>
+                    <div class="al"><a href="#">Promotion</a></div>
+                </div>
+            </td>
+
+            <td>
+                <div class="primary_one">
+                    <div class="al"><a href="#">Resturent near me</a></div>
+                    <div class="al"><a href="#">View all cities</a></div>
+                    <div class="al"><a href="#">View all countries</a></div>
+                    <div class="al"><a href="#">pickup near me</a></div>
+                    <div class="al"><a href="#">About Uber Eats</a></div>
+                    <div class="al"><a href="#">English</a></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <footer>
+        <div class="footer_01">
+            <img src="../image/facebook.png" alt="facebook" class="png">
+            <img src="../image/twitter.png" alt="Twitter" class="png">
+            <img src="../image/instagram.png" alt="Instagram" class="png">
+        </div>
+
+        <div class="create">
+            <div class="para"><a href="#">Privacy Policy</a></div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="para"><a href="#">Terms</a></div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="para"><a href="#">Pricing</a></div>&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="para"><a href="#">Do not sell or share my personal information</a></div>
+        </div>
+
+        <div class="footer_02">
+            <p>
+                This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. &nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; © 2023 Uber Technologies Inc.
+            </p>
+
+        </div>
+    </footer>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
+</body>
+
+</html>
