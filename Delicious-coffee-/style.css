@@ -1,0 +1,213 @@
+/* -------------------------------font style----------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -----------------------------------------------Navbar Css------------------------------------------------- */
+nav {
+    background-color: #b13941;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: "PT Serif";
+}
+
+/* ---------------------------------background image---------------------------------------- */
+.banner {
+    /* padding: 100px; */
+    background-image: url(image/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 643px;
+}
+
+.text {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 90px;
+    color: white;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.para {
+    padding: 0px 60px;
+}
+
+.para {
+    font-size: 21px;
+    color: #fefefe;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 50px;
+    /* margin: 10px 100px 35px; */
+}
+
+button {
+    background-color: #b13941;
+    padding: 10px 50px;
+    font-size: 30px;
+    margin: 50px 0px 30px;
+    font-family: "PT Serif";
+    color: white;
+}
+
+/* ---------------------------------------Secound Page CSS---------------------------- */
+.header1 {
+    background-color: rgb(240, 63, 63);
+    display: flex;
+}
+
+.container-1 {
+    padding: 50px 60px;
+}
+
+.main-header1 {
+    display: flex;
+}
+
+.h2 {
+    font-size: 25px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-top: 35px;
+    padding-left: 50px;
+
+}
+
+.h1 {
+    padding-left: 50px;
+    font-size: 45px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+
+.para-1 {
+    padding-top: 20px;
+    padding-right: 150px;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #feedda;
+    font-family: "PT Serif";
+}
+
+.button-1>button {
+    background-color: #feedda;
+    color: rgb(240, 63, 63);
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 50px;
+}
+
+/* --------------------------------Thired Page CSS----------------------------------  */
+
+.container-2 {
+    background-color: #f8eed3;
+    display: flex;
+}
+
+.main-div2 {
+    display: flex;
+}
+
+.text-1 {
+    font-size: 75px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 90px;
+    padding-top: 100px;
+    font-family: "Yeseva One";
+}
+
+.text-1>.para-2 {
+    font-size: 18px;
+    font-family: "Yeseva One";
+    padding-right: 20%;
+    line-height: 30px;
+    color: #575757;
+    padding-top: 50px;
+}
+
+.story {
+    padding-top: 50px;
+    color: #b13941;
+    font-size: 20px;
+}
+
+/* --------------------------------Fourth Page CSS----------------------------------  */
+
+.container-3 {
+    padding-bottom: 30%;
+    background-color: #b13941;
+    background-image: url(image/background-design.png);
+}
+
+.menu {
+    padding-top: 50px;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.para-3 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 25%;
+    font-size: 21px;
+    line-height: 33px;
+    color: white;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.main-div3 {
+    display: flex;
+}
+.main-division-1{
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-right: 30px;
+    display: flex;
+}
+.div-2{
+    padding-left: 18%;
+}
+.div-3{
+    padding-left: 18%;
+}
