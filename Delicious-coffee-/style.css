@@ -79,7 +79,14 @@ button {
     font-size: 30px;
     margin: 50px 0px 30px;
     font-family: "PT Serif";
+    box-shadow: 2px 2px 10px black;
+    transition: 1s;
     color: white;
+}
+
+button:hover {
+    transition: 1s;
+    transform: scale(1.1);
 }
 
 /* ---------------------------------------Secound Page CSS---------------------------- */
@@ -170,7 +177,7 @@ button {
 /* --------------------------------Fourth Page CSS----------------------------------  */
 
 .container-3 {
-    padding-bottom: 30%;
+    padding-bottom: 100px;
     background-color: #b13941;
     background-image: url(image/background-design.png);
 }
@@ -196,18 +203,107 @@ button {
     text-align: center;
 }
 
-.main-div3 {
+.seaction-1 {
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 25px;
+    padding-top: 70px;
+
 }
-.main-division-1{
-    padding-left: 30px;
+
+.col-33 {
+    display: flex;
+    width: 33.33%;
+    box-shadow: 3px 3px 12px black;
+    background-color: white;
+    transition: 1s;
+}
+
+.col-33:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.text-11 h5 {
+    padding-top: 35px;
+    font-size: 35px;
+    font-family: "Yeseva One";
+}
+
+.text-11 p {
+    font-family: "PT Serif";
+    font-size: 11px;
+    padding-top: 35px;
+    color: #575757;
+}
+
+.text-11 button {
+    font-size: 15px;
+}
+
+/* --------------Fifth Page------------- */
+
+.container-4 {
+    padding-bottom: 100px;
+    background-color: #f8eed3;
+    padding-bottom: 70px;
+}
+
+.store {
+    padding-top: 50px;
+    font-size: 80px;
+    color: #b13941;
+    font-family: "Yeseva One";
+    text-align: center;
+}
+
+.para-4 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 25%;
+    font-size: 21px;
+    line-height: 33px;
+    color: #b13941;
+    font-family: "PT Serif";
+    text-align: center;
+}
+
+.seaction-2 {
+    display: flex;
+    /* background-color: white; */
+    justify-content: space-between;
+
+}
+
+.text-para {
+    text-align: center;
+    padding-right: 50px;
+    /* background-color: white; */
+    font-family: "PT Serif";
+}
+
+.text-para h5 {
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+.text-para p {
+    font-size: 17px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 25px;
+}
+
+.text-para button {
+    font-size: 10px;
+}
+
+.photo-1 {
     padding-top: 80px;
-    padding-right: 30px;
-    display: flex;
-}
-.div-2{
-    padding-left: 18%;
-}
-.div-3{
-    padding-left: 18%;
+    padding-left: 70px;
 }
