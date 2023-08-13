@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    background-image: url(image/background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.netflix{
+    padding-left: 50px;
+}
+
+.language {
+    margin-left: 60%;
+    border-radius: 10px;
+    color: inherit;
+    line-height: 1.25rem;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: transparent;
+    color: white;
+}
+button{
+    margin: 30px;
+    border-radius: 10px;
+    font: inherit;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.heading h1{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 15%;
+    font-size: 50px;
+}
+
+.heading p{
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* padding-top: 15%; */
+    padding-top: 20px;
+    font-size: 30px;
+}
