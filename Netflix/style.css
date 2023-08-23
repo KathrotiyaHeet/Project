@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Fira+Sans:wght@300;400&family=Montserrat:wght@100&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,16 +7,24 @@
 }
 
 .main-div {
-    background-image: url(image/background.jpg);
+    background-image: url(image/bgimage.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.netflix{
+
+.netflix {
+    display: flex;
+}
+
+.netflix img {
+    display: flex;
     padding-left: 50px;
 }
 
 .language {
+    height: 50px;
+    margin-top: 27px;
     margin-left: 60%;
     border-radius: 10px;
     color: inherit;
@@ -26,8 +36,13 @@
     background: transparent;
     color: white;
 }
-button{
+
+.sign-in {
+    border: 1px solid transparent;
     margin: 30px;
+    height: 50px;
+    margin-top: 27px;
+    margin-left: 10px;
     border-radius: 10px;
     font: inherit;
     padding-right: 20px;
@@ -39,7 +54,7 @@ button{
     text-align: center;
 }
 
-.heading h1{
+.heading h1 {
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -47,11 +62,185 @@ button{
     font-size: 50px;
 }
 
-.heading p{
+.heading p {
     text-align: center;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* padding-top: 15%; */
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 22px;
+}
+
+.email {
+    margin-top: 80px;
+    margin-left: 30%;
+    height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    background: transparent;
+    width: 28%;
+    /* background: #848080; */
+    color: beige;
+    border: 1px solid white;
+}
+
+.get {
+    height: 50px;
+    width: 180px;
+    margin: 30px;
+    margin-top: 27px;
+    margin-left: 5px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -------------------------------------2 Page------------------------------ */
+
+.main-div-1 {
+    background-color: #000;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+}
+
+.text-1 h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    font-size: 55px;
+    margin-top: 25%;
+}
+
+.text-1 p {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    padding-top: 20px;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.image {
+    padding-top: 120px;
+    padding-left: 70px;
+    position: relative;
+}
+
+
+.viedo-tag {
+    position: absolute;
+    margin-left: -391px;
+    margin-top: 70px;
+    z-index: 0;
+    border: 0 solid transparent;
+}
+
+/* -------------------------3 Page---------------------------- */
+
+.main-div-2 {
+    background-color: #000;
+    height: 80vh;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.image1 {
+    padding-top: 50px;
+    padding-left: 180px;
+
+}
+
+.text-2 h1 {
+    padding-top: 150px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-left: 25px;
+}
+
+.text-2 p {
+    padding-top: 20px;
+    padding-left: 25px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.text00 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+
+.text11 {
+    margin-top: 25px;
+    color: blue;
+    cursor: pointer;
+    margin-left: -100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.text {
+    display: flex;
+}
+
+.stimage {
+    margin-left: 315px;
+    cursor: pointer;
+}
+
+.smallicon {
+    margin-top: 25px;
+    padding-left: 15px;
+    width: 55px;
+    height: 43px;
+}
+/* -------------------------------4 Page--------------------------- */
+.main-div-3{
+    background-color: #000;
+    height: 70vh;
+}
+.container-3{
+    display: flex;
+}
+.text-4{
+    color: white;
+}
+.text-10 h1{
+    color: white;padding-top: 150px;
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-10 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.play{
+    width: 50px;
+}
+.photo-1{
+    position: relative;
+    z-index: 1;
+}
+.viedo-tag-1{
+    position: absolute;
+    margin-left: -365px;
+    margin-top: 35px;
+    width: 275px;
+    border: 0 solid transparent;
 }
