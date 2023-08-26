@@ -338,7 +338,8 @@
 }
 
 .collapsible:after {
-    content: '\002B';        /* \002B is the Plus symbol to crate a icon  */
+    content: '\002B';
+    /* \002B is the Plus symbol to crate a icon  */
     color: white;
     float: right;
     font-family: times new roman;
@@ -348,7 +349,8 @@
 }
 
 .active:after {
-    content: "\00D7";                  /* \00D7 is the close symbol to crate a icon  */ 
+    content: "\00D7";
+    /* \00D7 is the close symbol to crate a icon  */
 }
 
 .content {
@@ -367,7 +369,8 @@
     text-decoration: none;
     border: 1px solid black;
 }
-.content p{
+
+.content p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -395,17 +398,19 @@ h5 {
     text-decoration: underline;
 }
 
-.text-sub-sub{
+.text-sub-sub {
     color: white;
     padding-left: 100px;
     font-size: 30px;
     padding-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.flex-container{
+
+.flex-container {
     display: flex;
 }
-.flex-container input{
+
+.flex-container input {
     width: 550px;
     height: 45px;
     font-weight: 700;
@@ -416,7 +421,8 @@ h5 {
     color: white;
     border: 1px solid white;
 }
-.get-1{
+
+.get-1 {
     height: 45px;
     margin-left: 20px;
     width: 180px;
@@ -429,11 +435,12 @@ h5 {
 }
 
 /* ---------------------------- footer------------------------- */
-.footer{
+.footer {
     background-color: #000;
     height: 60vh;
 }
-.last-footer h1{
+
+.last-footer h1 {
     color: white;
     font-size: 20px;
     padding-top: 100px;
@@ -441,6 +448,7 @@ h5 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
+
 .column p {
     text-decoration: underline;
     color: #757575;
@@ -450,14 +458,15 @@ h5 {
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
-    
+
 }
-p:hover{
+
+p:hover {
     color: white;
 }
 
-.row{
+.row {
     display: flex;
     padding-top: 20px;
-    padding-left:200px;
+    padding-left: 200px;
 }
