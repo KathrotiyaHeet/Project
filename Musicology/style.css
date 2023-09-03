@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Oswald"; */
 }
 
 .container {
@@ -122,7 +121,7 @@ button {
     background-color: #303030;
     width: 350px;
     padding-bottom: 20px;
-    /* height: 500px; */
+    height: 500px;
     margin-left: 95px;
 }
 
@@ -152,28 +151,25 @@ button {
 
 .maindiv01 {
     display: flex;
-    padding-left: 85px;
-
+    margin-left: 85px;
+    padding-left: 60px;
 }
 
 .main002 {
     background-color: #303030;
-    width: 76%;
-    padding-bottom: 20px;
-    padding-left: 0px;
+    width: 84%;
+    padding-bottom: 45px;
 }
 
 .photos01 {
-    height: 75%;
-    display: flex;
-    /* padding-left: 50px; */
+    margin-left: 0;
 }
 
 .text10 {
     color: white;
     text-align: center;
     font-size: 20px;
-    font-family: "oswald";
+    font-family: 'oswald';
 }
 
 .text20 {
@@ -194,7 +190,8 @@ button {
 
 .main003 {
     background-color: #303030;
-    width: 76%;
+    width: 81%;
+    padding-bottom: 20px;
 }
 
 .photos02 {
@@ -206,6 +203,7 @@ button {
     color: white;
     text-align: center;
     font-size: 20px;
+    justify-content: center;
     font-family: "oswald";
 }
 
@@ -220,7 +218,7 @@ button {
 
 .seaction {
     background-color: #303030;
-    height: 800px;
+    height: 750px;
 }
 
 h2 {
@@ -249,21 +247,21 @@ h2 {
 .main004 {
     background-color: #e8631c;
     width: 75%;
-    /* height: 420px; */
+    height: 420px;
     border-radius: 8px;
 }
 
 .main005 {
     background-color: #e8631c;
     width: 75%;
-    /* height: 420px; */
+    height: 420px;
     border-radius: 8px;
 }
 
 .main006 {
     background-color: #e8631c;
     width: 75%;
-    /* height: 420px; */
+    height: 420px;
     border-radius: 8px;
 }
 
@@ -300,7 +298,8 @@ h3 {
 }
 
 .main101 {
-    padding-left: 180px;
+    margin-left: 100px;
+    /* padding-left: 180px; */
     padding-top: 50px;
 }
 
@@ -494,13 +493,15 @@ h3 {
     padding-right: 25%;
     padding-top: 5%;
 }
-.button-xy{
+
+.button-xy {
     width: 20%;
     background-color: #303030;
     font-size: 30px;
     color: #ffffff;
     border-radius: 5px;
 }
+
 input {
     font-size: 30px;
     font-family: "Poppins";
@@ -510,21 +511,24 @@ input {
     background-color: #303030;
     display: flex;
 }
-.titel-list{
+
+.titel-list {
     color: white;
     font-family: "Oswald";
     padding-top: 80px;
     padding-left: 50PX;
     font-size: 20px;
 }
-.text-6{
+
+.text-6 {
     color: white;
     font-family: "Poppins";
     width: 40%;
     padding-top: 10px;
     padding-left: 50px;
 }
-.logos{
+
+.logos {
     padding-top: 20px;
     display: flex;
     font-size: 30px;
@@ -532,24 +536,26 @@ input {
     color: aliceblue;
     padding-left: 50px;
 }
-i{
+
+i {
     color: #ffffff;
 }
-.box_5{
+
+.box_5 {
     width: 50%;
     display: flex;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li>a{
+li>a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.list{
+.list {
     padding: 20px;
     padding-top: 60px;
     line-height: 40px;
@@ -558,15 +564,16 @@ li>a{
 }
 
 .list2,
-.list3{
+.list3 {
     padding: 20px;
     padding-top: 60px;
     line-height: 40px;
     font-size: 18px;
     color: #ffffff;
 }
-h4{
-    font-family: "Oswald"; 
+
+h4 {
+    font-family: "Oswald";
     font-size: 30px;
     padding-bottom: 5px;
 }
