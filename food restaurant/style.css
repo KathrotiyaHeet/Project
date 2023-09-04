@@ -33,22 +33,26 @@ ul {
     align-items: center;
     transition: 1.8s;
 }
-.imagg{
+
+.imagg {
     margin-left: 50%;
     margin-top: -12%;
     transition: 1.5s;
 }
-.imagg:hover{
+
+.imagg:hover {
     transition: 1.5s;
     transform: 1.5s;
     width: 650px;
 }
-.pic:hover{
+
+.pic:hover {
     transition: 2s;
     transform: rotate(360deg);
     font-size: 40px;
 }
-ul:hover{
+
+ul:hover {
     font-size: 30px;
     transition: 1.8s;
 }
@@ -77,13 +81,15 @@ li {
     padding-bottom: 50px;
     margin-top: -25%;
 }
-button:hover{
+
+button:hover {
     transition: 1.5s;
     transform: 1.5s;
     width: 200px;
     height: 80px;
     font-size: 30px;
 }
+
 button {
     border-radius: 20px;
     height: 40px;
@@ -94,7 +100,8 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
 }
-.span-id{
+
+.span-id {
     padding-top: 30px;
     padding-left: 40px;
     font-family: "Open Sans";
@@ -102,18 +109,75 @@ button {
     font-size: 21px;
     width: 32%;
 }
-/* .image-seaction {
-    margin-left: 52%;
-    margin-top: 100px;
-} */
 
-/* .contant h1{
-    font-family: "Dancing Script";
-    font-size: 100px;
-    padding-top: 150px;
-    color: #ffffff;
-    filter: drop-shadow(0px 5px 2.5px rgba(84,82,79,0.22));
-} */
 .text-1 {
     color: white;
+}
+
+/* --------------------------------Page No.2---------------------------------- */
+
+.main-div2 {
+    height: 120vh;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.line-2 h1 {
+    padding-left: 400px;
+    font-size: 100px;
+    padding-top: 20px;
+    color: #222328;
+    font-family: "Dancing Script";
+}
+
+.line-2 p {
+    padding-top: 30px;
+    margin-right: 10%;
+    margin-left: 35%;
+    font-size: 27px;
+    color: #2f3135;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.image-11 {
+    padding-top: 80px;
+    margin-left: 170px;
+}
+
+.containt-11 h1 {
+    font-family: "Open Sans";
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.containt-11 p{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 23px;
+    font-family: "Open Sans";
+    color: black;
+}
+.bttn input{
+    border: transparent;
+    margin-top: 20px;
+    margin-left: 45%;
+    font-family: "Open Sans";
+    background-color: #2f3135;
+    color: white;
+    border-radius: 10PX;
+    font-size: 20px;
+    height: 45px;
+    width: 150px;
+    transition: 1.5s;
+}
+input:hover{
+    transition: 1.5s;
+    transform: 1.5s;
+    width: 200px;
+    height: 80px;
+    font-size: 30px;
 }
