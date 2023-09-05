@@ -146,6 +146,12 @@ button {
 .image-11 {
     padding-top: 80px;
     margin-left: 170px;
+    transition: 1s;
+}
+
+.image-11:hover{
+    transition: 1s;
+    transform: 1s;
 }
 
 .containt-11 h1 {
