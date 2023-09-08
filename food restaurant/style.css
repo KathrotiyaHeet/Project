@@ -154,15 +154,17 @@ button {
     color: black;
     text-align: center;
 }
-.containt-11 p{
+
+.containt-11 p {
     padding-top: 15px;
     text-align: center;
     font-size: 23px;
     font-family: "Open Sans";
     color: black;
 }
-.bttn input{
-    border: transparent;
+
+.bttn input {
+    border: 0;
     margin-top: 20px;
     margin-left: 45%;
     font-family: "Open Sans";
@@ -174,22 +176,23 @@ button {
     width: 150px;
     transition: 1.5s;
 }
-input:hover{
+
+/* input:hover {
     transition: 1.5s;
     transform: 1.5s;
     width: 150px;
     height: 50px;
     font-size: 15px;
-}
+} */
 
 /* ---------------------Page No 3----------------------------- */
 
-.main-div3{
+.main-div3 {
     background-color: #2f3135;
     height: 80vh;
 }
 
-.heading h1{
+.heading h1 {
     padding-top: 20px;
     font-family: "Dancing Script";
     font-size: 100px;
@@ -197,14 +200,16 @@ input:hover{
     text-align: center;
     transition: 1.5s;
 }
-.heading h1:hover{
+
+.heading h1:hover {
     transition: 1.5s;
     font-size: 90px;
     text-shadow: 10px 10px 45px white;
-    transform: 1.5s;   
+    transform: 1.5s;
     color: yellowgreen;
 }
-.para-01 p{
+
+.para-01 p {
     font-family: "Open Sans";
     color: white;
     width: 80%;
@@ -216,7 +221,7 @@ input:hover{
     transition: 1.5s;
 }
 
-.para-02 p{
+.para-02 p {
     font-family: "Open Sans";
     color: white;
     width: 80%;
@@ -227,18 +232,84 @@ input:hover{
     padding-left: 50px;
     transition: 1.5s;
 }
-.para-01 p:hover{
+
+.para-01 p:hover {
     letter-spacing: 5px;
-    line-height: 40px;
+    line-height: 25px;
     transition: 1.5s;
     cursor: pointer;
 }
-.para-02 p:hover{
+
+.para-02 p:hover {
     letter-spacing: 5px;
-    line-height: 40px;
+    line-height: 25px;
     transition: 1.5s;
     cursor: pointer;
 }
-.only-text{
+
+.only-text {
     display: flex;
+}
+
+.info {
+    margin-top: 100px;
+    margin-left: 42%;
+    border: transparent;
+    height: 35px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+}
+
+.info:active {
+    scale: 0.9s;
+}
+
+/* --------------------Page No 4------------------------------- */
+
+.main_div4 {
+    height: 100vh;
+}
+
+.image-seaction {
+    display: flex;
+}
+
+.image-01 {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.image-02{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.head h1 {
+    padding-left: 100px;
+    padding-top: 150px;
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head p {
+    padding-left: 100px;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #27292c;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.read {
+    width: 300px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 37px;
+    background-color: black;
+    color: white;
+    margin-left: 40%;
 }
