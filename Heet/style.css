@@ -479,3 +479,43 @@ a {
     text-align: center;
     font-size: 45px;
 }
+
+/* -----------------------------------------------Page No 5-------------------------------------------------- */
+
+.main-div-7{
+    background-color: rgb(3, 93, 93);
+    height: 100vh;
+}
+
+.contact-content h2{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+.contact-content span{
+    color: white;
+    cursor: pointer;
+    padding-left: 32%;
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+}
+.contact-content p{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.icon-media a{
+    font-size: 30px;
+    padding-left: 8%;
+    margin-left: 5px;
+}
+.icon-media i{
+    margin: 20px;
+    margin-top: 50px;
+}
