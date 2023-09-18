@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar img {
+    margin-left: 100px;
+    font-size: 50px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    cursor: pointer;
+    font-family: 'Croissant One';
+    margin: 20px;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+.book-ola {
+    margin-left: 450px;
+    margin-top: 15px;
+    border: transparent;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    background-color: #2b2b2b;
+    color: white;
+    font-family: 'Croissant One';
+}
+
+.book-free {
+    margin-left: 15px;
+    margin-top: 15px;
+    border: transparent;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+    background-color: white;
+    color: #2b2b2b;
+    font-family: 'Croissant One';
+}
+
+.navbar i {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.main-div-1 {
+    height: 45vh;
+    background-image: url(image/herobanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    /* margin-top: -20px; */
+    /* margin-left: -10px; */
+    /* rotate: -1deg; */
+}
+
+.text h1 {
+    font-size: 45px;
+    font-family: 'Poppins';
+    padding-left: 180px;
+    padding-top: 120px;
+    color: white;
+}
+
+.tab-container {
+   
+    display: flex;
+    flex-direction: row;
+    width: 304px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    font-family: Gentona;
+    padding: 0 25px;
+    margin-left: 180px;
+}
+
+.tab-item {
+    cursor: pointer;
+    margin: 21px;
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.tab-item:hover {
+    border-bottom: 2px solid black;
+}
+
+.page-container{
+    width: 800px;
+    margin-left: 180px;
+    background-color: #f2f4f6;
+    height: 60px;
+}
+.input-type input{
+    height: 50px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+::placeholder{
+    font-size: 15px;
+}
