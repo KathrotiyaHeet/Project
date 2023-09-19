@@ -109,22 +109,25 @@
     border-bottom: 2px solid black;
 }
 
-.page-container{
+.page-container {
     width: 1100px;
     margin-left: 200px;
     background-color: #dee3e7;
     height: 90px;
 }
-.input-type{
+
+.input-type {
     padding-top: 12px;
 }
-.input-type input{
+
+.input-type input {
     height: 50px;
     width: 250px;
     margin-top: 10px;
     margin-left: 100px;
 }
-::placeholder{
+
+::placeholder {
     font-family: 'Poppins';
     font-size: 18px;
     color: darkblue;
@@ -138,24 +141,24 @@
     margin-left: 110px;
     position: absolute;
 }
- 
+
 .input-type {
     width: 100%;
     margin-bottom: 10px;
 }
- 
+
 .icon {
     padding: 10px;
     min-width: 40px;
 }
- 
+
 .input-field {
     width: 100%;
     padding: 10px;
     text-align: center;
 }
 
-.search-ola{
+.search-ola {
     background-color: darkcyan;
     color: #dee3e7;
     font-family: 'Poppins';
@@ -165,42 +168,49 @@
     height: 50px;
     width: 250px;
 }
-.green-image img{
+
+.green-image img {
     width: 1100px;
     margin-left: 200px;
     margin-top: 10px;
 }
 
-.electrified-title h1{
+.electrified-title h1 {
     text-align: center;
     padding-top: 100px;
     font-size: 40px;
     font-family: 'Poppins';
     text-shadow: 1px 1px 3px yellowgreen;
 }
-.flex-space{
+
+.flex-space {
     margin-top: 70px;
     display: flex;
     justify-content: space-evenly;
     transition: 1.5s;
 }
-.flex-column img{
+
+.flex-column img {
     margin-left: 25px;
 }
-.text-only p{
+
+.text-only p {
     text-align: center;
     padding-top: 5px;
 }
-.title-1{
+
+.title-1 {
     font-family: 'Poppins';
     font-size: 30px;
     font-weight: 900;
 }
-.title-2{
+
+.title-2 {
     font-family: 'Poppins';
     font-size: 25px;
 }
-.title-3{
+
+.title-3 {
     font-family: 'Poppins';
     font-size: 15px;
     padding-bottom: 100px;
@@ -208,14 +218,15 @@
 
 /* -------------------------------------------------Page No 2-------------------------------------- */
 
-.main-div-2{
+.main-div-2 {
     background-color: black;
-    height: 165vh;
-    /* width: 1050vh; */
-    /* margin-left: -50px; */
-    /* rotate: -1.3deg; */
+    height: 145vh;
+    /* width: 1050vh;
+    margin-left: -50px;
+    rotate: -1.3deg; */
 }
-.event-built h1{
+
+.event-built h1 {
     color: white;
     font-family: 'Poppins';
     font-weight: 900;
@@ -224,30 +235,36 @@
     padding-left: 250px;
     text-shadow: 2px 2px 3px yellow;
 }
-.image-ola img{
+
+.image-ola img {
     padding-top: 50px;
     margin-left: 250px;
 }
-.box-container{
+
+.box-container {
     display: flex;
 }
-.text-left p{
+
+.text-left p {
     color: white;
     font-family: 'Poppins';
     padding-left: 250px;
     line-height: 30px;
 }
-.text-left h2{
+
+.text-left h2 {
     color: white;
     font-family: 'Poppins';
     padding-left: 250px;
     padding-top: 10px;
     cursor: pointer;
 }
-.black-box{
+
+.black-box {
     padding-left: 80px;
 }
-.box{
+
+.box {
     text-align: center;
     height: 150px;
     width: 160px;
@@ -256,28 +273,77 @@
     box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 white;
     transition: all ease 1s;
 }
-.box p{
+
+.box p {
     font-size: 15px;
     font-family: 'Poppins';
     color: white;
     font-size: 25px;
     padding-top: 20px;
 }
-.black-box-1{
+
+.black-box-1 {
     padding-left: 50px;
 }
-.black-box-2{
+
+.black-box-2 {
     padding-left: 50px;
 }
-.km{
+
+.km {
     font-size: 17px;
 }
-.box:hover{
-   transform: scale(1.2);
+
+.box:hover {
+    transform: scale(1.2);
 }
-.box-subhead{
+
+.box-subhead {
     font-size: 20px;
     font-family: 'Poppins';
     color: white;
     padding-top: 20px;
+}
+.ola-pink img{
+    margin-left: 250px;
+}
+
+/* ---------------------------------------------------Page No 3------------------------------------------------ */
+
+.main-div-3{
+    height: 100vh;
+    padding-top: 60px;
+    padding-left: 250px;
+}
+
+.text-ola-slide p{
+    font-family: 'Poppins';
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.image-seaction{
+    display: flex;
+    margin-bottom: 100px;
+}
+.image-seaction{
+    background-color: #f0f4f4;
+    width: 1000px;
+}
+.item-header h1{
+    font-family: 'Poppins';
+    font-size: 20px;
+    padding-left: 80px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.item-header h1:hover{
+    color: green;
+}
+.item-header p{
+    padding-left: 80px;
+    padding-top: 20px;
+    line-height: 25px;
+    font-family: 'Poppins';
+    color: gray;
 }
