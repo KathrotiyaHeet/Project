@@ -395,6 +395,7 @@
 
 /* ------------------------------------------------ Page No 5 --------------------------------------- */
 .main-div-5 {
+    background-color: aliceblue;
     height: 100vh;
 }
 
@@ -416,8 +417,48 @@
     padding-left: 20px;
     justify-content: space-evenly;
 }
-
 .column-1 img {
     margin-top: 50px;
     padding-left: 100px;
+}
+.ride-head p{
+    font-size: 25px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.redi-para P{
+    font-size: 15px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    text-align: center;   
+}
+/* ------------------------------------------------ Page No 6 --------------------------------------- */
+.making-division{
+    display: flex;
+}
+.making-division video{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.making-title h1{
+    font-size: 42px;
+    font-family: 'Poppins';
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 35px;
+    text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
+
+}
+.making-ride span{
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding-left: 100px;
+}
+.making-drive p{
+    font-size: 20px;
+    color: gray;
+    font-family: 'Poppins';
+    padding-left: 100px;
+    padding-bottom: 20px;
 }
