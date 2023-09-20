@@ -186,7 +186,6 @@
     padding-top: 100px;
     font-size: 40px;
     font-family: 'Poppins';
-    /* text-shadow: 1px 1px 3px yellowgreen; */
     text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #76a22e;
 
 }
@@ -650,7 +649,6 @@
 /* ----------------------------------------Page No 10-------------------------------- */
 .main-div-10 {
     height: 80vh;
-    background-color: #f2f4f0;
 }
 
 .recent h1 {
@@ -704,4 +702,45 @@ div .desx {
     padding: 15px;
     font-family: 'Poppins';
     text-align: center;
+}
+
+/* ---------------------------------------------Page No 10----------------------------------------- */
+.contant-10{
+    display: flex;
+    /* margin: 50px; */
+    margin-left: 150px;
+}
+.coll-30{
+   background: repeating-linear-gradient(#F4F8FC 0%, #D8DDE6 100%);
+   width: 350px;
+   height: 310px;
+   border-radius: 5px;
+   padding-bottom: 50px;
+   margin-left: 50px;
+}
+.row-30{
+    margin-bottom: 10px;
+}
+.row-30 img{
+    margin: 30px;
+    /* margin-left: 50px;
+    margin-top: 50px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+.para-11 h1{
+    font-family: 'Poppins';
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.para-11 p{
+    font-size: 13px;
+    color: gray;
+    font-family: 'Poppins';
+    padding-left: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+
 }
