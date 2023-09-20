@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +28,7 @@
 
 .navbar ul {
     display: flex;
-    
+
 }
 
 .navbar li {
@@ -478,19 +481,19 @@
 
 .main-div-7 {
     background-color: #f1f6e9;
-    height: 100vh;
+    height: 90vh;
 }
 
 .text-p h1 {
-    padding-left: 250px;
+    padding-left: 150px;
     padding-top: 80px;
     font-family: 'Poppins';
     font-size: 40px;
 }
 
 .photo-seaction img {
-    /* margin-left: 150px; */
     margin-top: 50px;
+    padding-left: 150px;
 }
 
 .photo-seaction {
@@ -520,10 +523,71 @@
     padding-top: 20px;
     padding-left: 50px;
 }
-.svg{
+
+.svg {
     display: flex;
-    margin-left: 80px;
+    margin-left: 50px;
 }
-.svg-item img{
+
+.svg-item img {
+    padding-left: 95px;
+}
+
+.svg-item li {
+    list-style: none;
+    /* text-align: center; */
     padding-left: 50px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contant-8 h1 {
+    padding-left: 150px;
+    padding-top: 90px;
+    font-size: 35px;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+
+.contant-8 p {
+    padding-left: 150px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 25px;
+}
+
+/* -------------------------------- Page No 8------------------------------------ */
+.main-div-8 {
+    display: flex;
+    height: 55vh;
+    background-color: #f0f4f4;
+}
+
+.photo-111 img {
+    margin-top: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.photo-111 {
+    margin-left: 150px;
+}
+
+.photo-111 p {
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.contant-8 button {
+    border: transparent;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
 }
