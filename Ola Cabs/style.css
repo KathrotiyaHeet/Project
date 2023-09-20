@@ -10,6 +10,8 @@
 
 .container {
     background-color: black;
+    width: 100%;
+    height: 80px;
 }
 
 .navbar {
@@ -23,12 +25,13 @@
 
 .navbar ul {
     display: flex;
+    
 }
 
 .navbar li {
     cursor: pointer;
     font-family: 'Croissant One';
-    margin: 20px;
+    margin: 22px;
     font-size: 18px;
     list-style: none;
     display: flex;
@@ -70,9 +73,9 @@
     background-image: url(image/herobanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 60%;
+    background-position: 65%;
     margin-bottom: 150px;
-    /* margin-top: -20px; */
+    margin-top: -20px;
     /* margin-left: -10px; */
     /* rotate: -1deg; */
 }
@@ -318,7 +321,7 @@
     height: 100vh;
     padding-top: 60px;
     padding-left: 250px;
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue; */
     height: 220vh;
 }
 
@@ -406,7 +409,7 @@
     font-family: 'Poppins';
     text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
 }
- 
+
 .row {
     display: flex;
     padding-left: 160px;
@@ -417,31 +420,37 @@
     padding-left: 20px;
     justify-content: space-evenly;
 }
+
 .column-1 img {
     margin-top: 50px;
     padding-left: 100px;
 }
-.ride-head p{
+
+.ride-head p {
     font-size: 25px;
     padding-top: 20px;
     font-family: 'Poppins';
     text-align: center;
 }
-.redi-para P{
+
+.redi-para P {
     font-size: 15px;
     padding-top: 20px;
     font-family: 'Poppins';
-    text-align: center;   
+    text-align: center;
 }
+
 /* ------------------------------------------------ Page No 6 --------------------------------------- */
-.making-division{
+.making-division {
     display: flex;
 }
-.making-division video{
+
+.making-division video {
     margin-left: 150px;
     margin-top: 100px;
 }
-.making-title h1{
+
+.making-title h1 {
     font-size: 42px;
     font-family: 'Poppins';
     padding-top: 200px;
@@ -450,15 +459,71 @@
     text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
 
 }
-.making-ride span{
+
+.making-ride span {
     font-size: 30px;
     font-family: 'Poppins';
     padding-left: 100px;
 }
-.making-drive p{
+
+.making-drive p {
     font-size: 20px;
     color: gray;
     font-family: 'Poppins';
     padding-left: 100px;
     padding-bottom: 20px;
+}
+
+/* --------------------------------------------------------- Page No 7------------------------------------------- */
+
+.main-div-7 {
+    background-color: #f1f6e9;
+    height: 100vh;
+}
+
+.text-p h1 {
+    padding-left: 250px;
+    padding-top: 80px;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+
+.photo-seaction img {
+    /* margin-left: 150px; */
+    margin-top: 50px;
+}
+
+.photo-seaction {
+    display: flex;
+}
+
+.item-a h1 {
+    font-size: 45px;
+    font-family: 'Poppins';
+    padding-top: 35px;
+    padding-left: 50px;
+    text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
+
+}
+
+.item-a span {
+    background-color: #daeed9;
+    cursor: pointer;
+    color: green;
+    font-size: 25px;
+    font-family: 'Poppins';
+}
+
+.item-a p {
+    font-family: 'Poppins';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.svg{
+    display: flex;
+    margin-left: 80px;
+}
+.svg-item img{
+    padding-left: 50px;
 }
