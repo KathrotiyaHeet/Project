@@ -561,21 +561,25 @@
 .main-div-8 {
     display: flex;
     height: 55vh;
-    background-color: #f0f4f4;
+    background-color: #f1f6e9;
 }
 
 .photo-111 img {
     margin-top: 100px;
     margin-left: 20px;
     cursor: pointer;
+    transition: 1.5s;
 }
-
+.photo-111 img:hover{
+    transform: scale(1.2);
+    transition: 1.5s;
+}
 .photo-111 {
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 .photo-111 p {
-    margin-left: 350px;
+    margin-left: 85%;
     margin-top: 20px;
     font-family: 'Raleway';
     font-weight: 900;
@@ -591,3 +595,99 @@
     margin-top: 30px;
     margin-left: 150px;
 }
+/* ------------------------------------------ Page No 9--------------------------------------------- */
+.main-div-9{
+    height: 130vh;
+}
+.tag h2 {
+    font-size: 45px;
+    font-family: 'Poppins';
+    text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.paragraph{
+    display: flex;
+}
+.paragraph p{
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 150px;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+.lakh p{
+    font-family: 'Poppins';
+    margin-left: -80px;
+    font-size: 20px;
+}
+.grid-image{
+    display: flex;
+}
+.grid-container {
+    width: calc(100% - 48px);
+    margin-top: 50px;
+    margin-left: 24px;
+    display: grid;
+    display: flex;
+    row-gap: 16px;
+    column-gap: 16px;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    grid-template-columns: 70%;
+    grid-template-rows: auto 40% 40%;
+}
+
+/* ----------------------------------------Page No 10-------------------------------- */
+.main-div-10{
+    height: 80vh;
+    background-color: #f2f4f0;
+}
+.recent h1{
+    font-size: 45px;
+    font-family: 'Poppins';
+    padding-top: 100px;
+    padding-left: 15px;
+    text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
+
+}
+.contant-10 {
+    margin-left: 200px;
+}
+.contant-10 .gallery{
+    margin-left: 25px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    height: 310px;
+    margin-top: 50px;
+    justify-content: space-between;
+    transition: 1.5s;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    transform: scale(1.2);
+    transition: 1.5s;
+  }
+  
+  div.gallery img {
+    width: 250px;
+    height: auto;
+    justify-content: space-between;
+  }
+  
+  div.desc {
+    padding: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+  }
+  div .desx{
+    color: green;
+    padding: 15px;
+    font-family: 'Poppins';
+    text-align: center;
+  }
