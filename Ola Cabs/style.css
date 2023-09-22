@@ -709,6 +709,7 @@ div .desx {
     display: flex;
     /* margin: 50px; */
     margin-left: 150px;
+    margin-top: 50px;
 }
 .coll-30{
    background: repeating-linear-gradient(#F4F8FC 0%, #D8DDE6 100%);
@@ -717,6 +718,7 @@ div .desx {
    border-radius: 5px;
    padding-bottom: 50px;
    margin-left: 50px;
+   transition: 1.5s;
 }
 .row-30{
     margin-bottom: 10px;
@@ -727,6 +729,9 @@ div .desx {
     margin-top: 50px; */
     border-radius: 20px;
     cursor: pointer;
+}
+.recent h1{
+    padding-left: 170px;
 }
 .para-11 h1{
     font-family: 'Poppins';
@@ -743,4 +748,10 @@ div .desx {
     padding-top: 10px;
     cursor: pointer;
 
+}
+.head-down h1{
+    padding-left: 200px;
+    font-family: 'Poppins';
+    padding-top: 50px;
+    text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
 }
