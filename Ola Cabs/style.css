@@ -740,7 +740,7 @@ div .desx {
     padding-left: 25px;
     cursor: pointer;
 }
-.para-11 p{
+.para-11 p{ 
     font-size: 13px;
     color: gray;
     font-family: 'Poppins';
@@ -754,4 +754,31 @@ div .desx {
     font-family: 'Poppins';
     padding-top: 50px;
     text-shadow: 1.152px 1.152px 0px #92C83E, 1.728px 1.728px 0px #92C83E;
+}
+
+/* ----------------------------------------- Page No 11--------------------------------------------- */
+
+.main-div-11{
+    background-color: #D8DDE6;
+    height: 50vh;
+    display: flex;
+}
+.contant-11{
+    margin-left: 150px;
+    padding-top: 50px;
+    width: 50px;
+}
+
+.social-icon {
+    padding-left: 140px;
+}
+
+.social-icon i{
+    padding-left: 20px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.footer-name{
+    display: flex;
 }
