@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Mooli&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -24,6 +25,7 @@
 .navbar img {
     margin-left: 100px;
     font-size: 50px;
+    margin-top: 18px;
 }
 
 .navbar ul {
@@ -32,8 +34,36 @@
 }
 
 .navbar li {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    color: white;
+}
+
+.navbar li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navbar li:hover::before {
+    transform: scaleX(1);
+}
+
+.navbar li {
     cursor: pointer;
-    font-family: 'Croissant One';
+    /* font-family: 'Croissant One'; */
+    font-family: 'Mooli';
     margin: 22px;
     font-size: 18px;
     list-style: none;
@@ -50,7 +80,8 @@
     cursor: pointer;
     background-color: #2b2b2b;
     color: white;
-    font-family: 'Croissant One';
+    /* font-family: 'Croissant One'; */
+    font-family: 'Mooli';
 }
 
 .book-free {
@@ -62,7 +93,8 @@
     cursor: pointer;
     background-color: white;
     color: #2b2b2b;
-    font-family: 'Croissant One';
+    /* font-family: 'Croissant One'; */
+    font-family: 'Mooli';
 }
 
 .navbar i {
@@ -111,8 +143,31 @@
     font-weight: 800;
 }
 
+.tab-item {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
 .tab-item:hover {
-    border-bottom: 2px solid black;
+    color: #000;
+}
+
+.tab-item::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.tab-item:hover::before {
+    transform: scaleX(1);
 }
 
 .page-container {
@@ -705,42 +760,48 @@ div .desx {
 }
 
 /* ---------------------------------------------Page No 10----------------------------------------- */
-.contant-10{
+.contant-10 {
     display: flex;
     /* margin: 50px; */
     margin-left: 150px;
     margin-top: 50px;
 }
-.coll-30{
-   background: repeating-linear-gradient(#F4F8FC 0%, #D8DDE6 100%);
-   width: 350px;
-   height: 310px;
-   border-radius: 5px;
-   padding-bottom: 50px;
-   margin-left: 50px;
-   transition: 1.5s;
+
+.coll-30 {
+    background: repeating-linear-gradient(#F4F8FC 0%, #D8DDE6 100%);
+    width: 350px;
+    height: 310px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    transition: 1.5s;
 }
-.row-30{
+
+.row-30 {
     margin-bottom: 10px;
 }
-.row-30 img{
+
+.row-30 img {
     margin: 30px;
     /* margin-left: 50px;
     margin-top: 50px; */
     border-radius: 20px;
     cursor: pointer;
 }
-.recent h1{
+
+.recent h1 {
     padding-left: 170px;
 }
-.para-11 h1{
+
+.para-11 h1 {
     font-family: 'Poppins';
     font-size: 30px;
     padding-top: 20px;
     padding-left: 25px;
     cursor: pointer;
 }
-.para-11 p{ 
+
+.para-11 p {
     font-size: 13px;
     color: gray;
     font-family: 'Poppins';
@@ -749,7 +810,8 @@ div .desx {
     cursor: pointer;
 
 }
-.head-down h1{
+
+.head-down h1 {
     padding-left: 200px;
     font-family: 'Poppins';
     padding-top: 50px;
@@ -758,14 +820,15 @@ div .desx {
 
 /* ----------------------------------------- Page No 11--------------------------------------------- */
 
-.main-div-11{
+.main-div-11 {
     background-color: #D8DDE6;
-    height: 50vh;
-    display: flex;
+    height: 53vh;
 }
-.contant-11{
+
+.contant-11 {
+    display: flex;
     margin-left: 150px;
-    padding-top: 50px;
+    padding-top: 80px;
     width: 50px;
 }
 
@@ -773,12 +836,100 @@ div .desx {
     padding-left: 140px;
 }
 
-.social-icon i{
+.social-icon i {
     padding-left: 20px;
     font-size: 30px;
     color: #000000;
 }
 
-.footer-name{
+.footer-name {
     display: flex;
+    margin-left: 150px;
+    margin-top: -100px;
+    line-height: 35px;
+}
+
+.footer-name li {
+    display: flex;
+    list-style: none;
+    font-family: 'Poppins';
+}
+
+.footer-name ul {
+    margin-left: 80px;
+}
+
+.input-verify input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -.01em;
+    color: #707070;
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    padding: 16px;
+    width: 261px;
+    margin-left: 95px;
+}
+
+.input-verify button {
+    width: 240px;
+    color: white;
+    line-height: 140%;
+    letter-spacing: -.01em;
+    height: 60px;
+    background: radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000 0, #222 100%);
+    box-shadow: -3px 3px 0 #32c86e;
+    font-family: 'Poppins';
+}
+
+.footer-button {
+    display: flex;
+}
+
+.other-link li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 50px;
+    font-family: 'Poppins';
+    color: gray;
+    cursor: pointer;
+
+}
+
+.footer-button p {
+    font-family: 'Poppins';
+    padding-left: 250px;
+}
+
+.web {
+    font-family: 'Poppins';
+    padding-left: 50px;
+}
+
+.other-link li {
+    position: relative;
+    color: gray;
+    text-decoration: none;
+}
+
+.other-link li:hover {
+    color: #000;
+}
+
+.other-link li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    /* width: 100%; */
+    height: 2px;
+    bottom: 0;
+    left: 20;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.other-link li:hover::before {
+    transform: scaleX(1);
 }
