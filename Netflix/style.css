@@ -21,7 +21,12 @@
     display: flex;
     padding-left: 50px;
 }
+.netflix a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
 .language {
     height: 50px;
     margin-top: 27px;
