@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Sign Up</title>
     <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="signIn.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -23,19 +23,24 @@
         </div>
         <div class="container">
             <div class="content">
-                <h2>Sign In</h2>
-            <form action="" method="get" class="form" onsubmit="cominSoon()">
-                <input type="email" name="email" id="email" placeholder="Email/Number/Username" required>
+                <h2>Sign Up</h2>
+            <form action="" method="get" class="form-example">
+                <input type="text" name="text" id="text" placeholder="Fullname" required>
+                <input type="text" name="text" id="text" placeholder="Username" required>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <input type="tel" name="tel" id="tel" placeholder="Phone No." required>
                 <input type="password" name="password" class="show-pass" id="password" placeholder="Password" required>
-                <div class="toggle-pass">
+                <div class="sign-pass">
                     <i class="fa-solid fa-eye" style="color: #000000;" id="togglePassword"></i>
                 </div>
-                <button  type="submit" class="acc">Log in</button>
-                <button type="button" class="pass">Forgot Password?</button>
-            </form>   
+                <div class="reg">
+                    <button type="submit" class="acc">Register Now</button>
+                    <button type="button" class="pass">Forgot Password?</button>
+                </div>
+            </form>
                 <div class="logo1"><img src="image/search.png"><p class="p">Sign up with Google</p></div>
                 <div class="or"><div class="line"></div>&nbsp; or &nbsp;<div class="line"></div></div>
-                <p class="p2">New here? Register <a href="signup.html"> Sign Up</a></p>
+                <p class="p2">Alredy have an account Login <a href="signIn.html">Sign in</a></p>
             </div>
         </div>
     </div>
@@ -58,8 +63,6 @@
     form.addEventListener('submit', function (e) {
         e.preventDefault();
     });
-    function cominSoon(){
-        window.location.href = "comingsoonpage.html";
-    }
 </script>
+
 </html>

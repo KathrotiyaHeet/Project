@@ -12,6 +12,7 @@ body{
 }
 .main{
     display: flex;
+    height: 100vh;
 }
 .image img{
     width: 250px;
@@ -22,15 +23,14 @@ body{
     margin: 0 auto;
 }
 .container{
-    background-color: rgb(153, 153, 153);
     color: white;
     width: 30%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.737);
+    background-color: rgba(255, 255, 255, 0.5);
     margin-top: 35px;
     border-radius: 15px;
     height: 610px;
-    margin-bottom: 85px;
+    margin-bottom: 34px;
     margin-left: -65px;
 }
 .logo{
@@ -58,7 +58,7 @@ h2{
 .logo1,.logo2,.pass{
     color: black;
     font-size: 15px;
-    border: 1px solid rgb(207, 217, 222);
+    border: 1px solid rgb(144, 162, 172);
     padding: 10px ;
     width: 100%;
     border-radius: 50px;
@@ -72,7 +72,7 @@ h2{
 }
 .logo1:hover{
     border: 1px solid rgb(29, 155, 240) ;
-    background-color: rgb(226, 233, 248);
+    background-color: rgb(209, 222, 248);
     /* color: rgb(29, 155, 240); */
     
 
@@ -100,13 +100,13 @@ margin-bottom: 12px;
 
 .line{
     height: 1px;
-    background-color: rgb(207, 217, 222);
+    background-color: rgb(176, 181, 183);
     width: 44%;
     margin-top: 12px;
 }
 input{
     width: 100%;
-    height: 32px;
+    height: 40px;
     border: 1px solid rgb(174, 186, 192);
     border-radius: 50px;
     margin-bottom: 26px;
@@ -115,7 +115,7 @@ input{
 
 }
 input::placeholder{
-    color:rgb(29, 34, 39);
+    color:rgb(139, 144, 150);
     font-size: 15px;
     font-family: 'Segoe UI';
     text-indent: 10px;
@@ -133,11 +133,11 @@ input::placeholder{
     text-align: center;
     font-weight: bold;
     margin-top: 25px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 0px;
     cursor: pointer;
 }
 .acc:hover{
-    background-color: rgb(39, 44, 48);
+    background-color: rgb(52, 57, 62);
 }
 .pass{
     font-family: 'Segoe UI';
@@ -145,7 +145,7 @@ input::placeholder{
     font-weight: 700;
     padding: 8px;
     border: 1px solid rgb(63, 63, 63);
-    background-color: rgb(209, 208, 208);
+    background-color: rgb(206, 206, 206);
 }
 .p2{
     font-size: 15px;
@@ -168,10 +168,6 @@ a:hover{
     font-family: sans-serif;
     font-weight: 500;
 }
-/* .reg{
-    gap: 15px;
-    display: flex;
-} */
 .text{
     text-align: center;
 }
@@ -188,4 +184,15 @@ a:hover{
 .image{
     margin-top: 45px;
     text-align: center;
+}
+.show-pass
+{
+    position: relative;
+}
+.toggle-pass 
+{
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 17.5vw;
+    cursor: pointer;
 }

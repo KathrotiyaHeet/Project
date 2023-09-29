@@ -1,26 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Mooli&family=Nunito:wght@200&display=swap');
-
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Mooli&family=Nunito:wght@200&display=swap');* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Nunito";
 }
 
 h3 {
+    font-family: "Nunito";
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 #countdown {
-    font-size: 4rem;
+    font-family: "Nunito";
+    font-size: 4vw;
     text-align: center;
     margin-top: 15px;
 }
-
 .wrapper {
     position: absolute;
+    text-align: center;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -102,13 +100,4 @@ h1 {
         opacity: 1;
     }
 
-}
-
-button{
-    background-color: #8bb8f3;
-    border: 0px;
-    text-align: center;
-    font-size: 25px;
-    margin-left: 160px;
-    cursor: pointer;
 }
