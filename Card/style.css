@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: url(Images/Background.png)no-repeat center center/cover;
+    display: flex;
+    padding-bottom: 100px;
+}
+.text{
+    padding: 100px 50px;
+    margin: 53px 0px;
+    width: 50%;
+}
+.text h3{
+    font-size: 80px;
+    letter-spacing: 13px;
+    color: #fcfafb;
+    font-weight: 300;
+    font-family: "Lato";
+}
+.text h1{
+    font-size: 118px;
+    letter-spacing: 17px;
+    color: #fcfafb;
+    font-weight: 400;
+    font-family: "Lato";
+}
+.text h4{
+    font-size: 72px;
+    letter-spacing: 9px;
+    color: #fcfafb;
+    font-weight: 300;
+    float: right;
+    font-family: "Lato";
+}
+.main{
+    width: 50%;
+}
+.card{
+    margin: 100px 58px;
+    padding: 20px 0px 50px;
+    backdrop-filter: blur(10px);
+    border: 1px solid #fbf8f9;
+    box-shadow:2px 2px 20px white inset;
+    border-radius: 5px;
+    color: #fcfafb;
+}
+.text2{
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+}
+.text2 h3{
+    font-size: 30px;
+    letter-spacing: 9px;
+    color: #fcfafb;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+.text2 h4{
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #fcfafb;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.Image{
+    width: 140px;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.text3{
+    padding-top: 30px;
+}
+.text3 h6{
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: #fcfafb;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+.vilidity{
+    display: flex;
+}
+.text4{
+    width: 78%;
+    padding: 40px 40px;
+}
+.text5{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text6{
+    font-size: 20px;
+    padding: 0px 40px;
+    letter-spacing: 9px;
+    color: #fcfafb;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
