@@ -1,0 +1,124 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Cedarville+Cursive&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Mooli&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:wght@300;500&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-division{
+    height: 160vh;
+    background-color: black;
+}
+.main-seaction{
+    display: flex;
+}
+.main-seaction img{
+    height: 100%;
+    margin: 50px;    
+}
+.navbar{
+    background-color: #141414;
+    width: 62%;
+    height: 100px;  
+    align-items: center;  
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;  
+    margin-top: 50px;     
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 50px;
+}
+.navbar li{
+    font-family: 'Roboto';
+    display: inline-block;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.background img{
+    position: relative;
+    width: 90%;
+    height: 550px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-left: 60px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.btn button{
+    font-family: 'Roboto';
+    position: absolute;
+    z-index: 3;
+    top: 95.5%;
+    left: 20px;
+    padding: 12px;
+    width: 12%;
+    margin-left: 50px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 80px;
+
+}
+
+.bttn button{
+    font-family: 'Roboto';
+    position: absolute;
+    z-index: 3;
+    top: 95.5%;
+    left: 10%;
+    padding: 12px;
+    width: 12%;
+    margin-left: 50px;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 50px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.sub-title{
+    font-family: 'Roboto';
+    color: white;
+}
+
+.main p{
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.sub p{
+    font-size: 35px;
+    text-align: center;
+    margin: 23px;
+    font-weight: 900;
+} 
+.para p{
+    width: 49.5%;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 900;
+    margin-left: 25%;
+}
+.learn button{
+    width: 10%;
+    padding: 14px;
+    margin-top: 20px;
+    margin-left: 45%;
+    background-color: #555555;
+    color: white;
+    border: transparent;
+    border-radius: 50px;
+    font-family: 'Roboto';
+    font-weight: 900;
+}
