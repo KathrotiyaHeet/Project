@@ -34,12 +34,6 @@
 
 }
 
-.navbar li {
-    position: relative;
-    color: white;
-    text-decoration: none;
-}
-
 .navbar li:hover {
     color: white;
 }
@@ -62,6 +56,9 @@
 }
 
 .navbar li {
+    position: relative;
+    color: white;
+    text-decoration: none;
     cursor: pointer;
     font-family: 'Mooli';
     margin: 22px;
@@ -89,11 +86,21 @@
     background-color: white;
     font-family: 'Mooli';
 }
-li {
-    color: green;
-}
+
 .navbar i {
-    margin-top: 25px;
-    margin-left: 20px;
+    margin: 25px;
     font-size: 25px;
+}
+li .exp {
+    color: green;
+    margin-left: 20px;
+}
+.nevigation-2 li{
+    color: green;
+    margin-left: 50px;
+}
+/* ----------------------------------------- Slide ---------------------------------------------------- */
+
+.carousel-inner img{
+    width: 100%;
 }

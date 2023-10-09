@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Barlow+Condensed&family=Bebas+Neue&family=Cedarville+Cursive&family=Croissant+One&family=Dancing+Script:wght@400;600&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300;400&family=Mooli&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:wght@300;500&family=Raleway:wght@300&family=Righteous&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #eee4cd;
+    height: 100vh;
+    padding: 50px;
+}
+
+.navbar {
+    border-radius: 50px;
+    width: 100%;
+    background-color: #031a2b;
+    display: flex;
+}
+
+.logo a {
+    padding-left: 50px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    font-family: 'Montserrat';
+    padding: 20px;
+    text-decoration: none;
+}
+
+.side li {
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.side a {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.side-a {
+    margin-left: 100px;
+}
+
+.signup li a {
+    margin-top: 10px;
+    color: #2fbcbf;
+}
+
+.signup li {
+    margin-left: 250px;
+}
+
+.text h1 {
+    font-size: 65px;
+    margin-top: 50px;
+}
+
+.text p {
+    font-family: 'Montserrat';
+    font-size: 29px;
+    color: #12202f;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.text-2 p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #12202f;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+.main-dix-flex img {
+    width: 700px;
+    margin-left: 10px;
+}
+
+.btn button {
+    cursor: pointer;
+    width: 120px;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: #df581e;
+    color: white;
+    font-family: 'Montserrat';
+}
