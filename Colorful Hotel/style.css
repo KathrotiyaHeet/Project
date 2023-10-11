@@ -190,9 +190,10 @@ input {
     display: flex;
     margin-left: 100px;
 }
-.division-1:hover{
+
+.division-1:hover {
     transform: scale(1.2);
-    transition: transform 1.2s;    
+    transition: transform 1.2s;
 }
 
 .division-1 {
@@ -203,7 +204,7 @@ input {
     height: 380px;
     border-radius: 40px;
     filter: drop-shadow(-5.557px 5.755px 0px rgba(150, 137, 104, 0.09));
-    transition: transform 1.5s ease-in-out;    
+    transition: transform 1.5s ease-in-out;
 
 }
 
@@ -256,18 +257,71 @@ input {
 
 /* ------------------------------------------------------- Page No 3 ------------------------------------------------------ */
 
-.image-and-text{
+.container-3 {
+    background-color: #eee4cd;
+    height: 100vh;
+}
+.image-and-text {
     display: flex;
+    width: 100%;
 }
-.img img{
-    width: 300px;
+.img{
+    position: relative;
 }
-.image-and-text button{
+.img img {
+    position: absolute;
+    width: 350px;
+    right: -230px;
+}
+.image-and-text button {
     padding: 10px;
     border-radius: 15px;
     border: transparent;
     background-color: #2fbcbf;
 }
-.img-1 img{
-    width: 300px;
+
+.img-1{
+    position: relative;
+}
+.img-1 img {
+    position: absolute;
+    width: 350px;
+    left: 650px;
+}
+.text-11{
+    position: relative;
+    margin: 15px;
+    margin-left: 150px;
+}
+.text-11 p {
+    position: absolute;
+    left: 10px;
+    font-size: 29px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 40px;
+    color: #6bb99c;
+    /* padding-left: 70px; */
+    /* margin-left: px; */
+}
+
+.text-11 h2 {
+    font-size: 50px;
+    color: #12202f;
+    font-weight: 900;
+    margin-left: 100px;
+}
+
+.text-11 button {
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 28px;
+    border: transparent;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 18px;
+
 }
