@@ -1,0 +1,329 @@
+@media (max-width: 768px) {
+    .background{
+        padding-block: 90px;
+    }
+    #h1{
+        padding-bottom: 60px;
+        font-size: 48px;
+    }
+    .background > p{
+        padding-bottom: 50px;
+    }
+    #h3{
+        font-size: 17px;
+    }
+    #h2{
+        font-size: 24px;
+        padding-top: 13px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .box,.box1,.box5{
+        font-size: 17px;
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+    .box1{
+        font-size: 14px;
+    }
+    .voucher{
+        padding-block: 28px;
+    }
+    .content{
+        padding-top: 18px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .img0{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .h2,.h23,.h24,.h25{
+        font-size: 40px;
+    }
+    .h22{
+        font-size: 30px;
+    }   
+    .p,.p1{
+        font-size: 17px;
+        padding-top: 28px;
+    }
+    .p2{
+        font-size: 16px;
+        padding-block: 24px;
+    }
+    .p4,.p5{
+        font-size: 18px;
+    }
+    .readstory{
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    .content1{
+        padding-top: 23px;
+        text-align: center;
+    }
+    .section,.section5{
+        flex-direction: column;
+    }
+    .Profile{
+        flex-direction: column-reverse;
+        padding-block: 22px;
+    }
+    .section4{
+        flex-direction: column-reverse;
+        padding-top: 22px;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .h21,.h23{
+        font-size: 32px;
+    }
+    .h21,.p1,.cardes{
+        padding-block: 22px;
+    }
+    .cardes,.cardes1{
+        margin-top: 12px;
+        flex-direction: column;
+        padding-bottom: 42px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card,.card1{
+        width: 90%;
+        margin-top: 22px;
+        margin-bottom: 22px;
+    }
+    .card1{
+        width: 65%;
+    }
+    .card > .col-50{
+        width: 45%;
+    }
+    .box4{
+    width: 32%;
+    }
+    .content2,.content3{
+        text-align: center;
+        align-items: center;
+        margin-top: 1px;
+    }
+    .content3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo3{
+        font-size: 22px;
+        width: 25%;
+        margin: auto;
+        
+    }
+    .video{
+        width: 90%;
+        margin: auto;
+    }
+    .content3,.map{
+        width: 100%;
+    }
+    input{
+        margin-top: 24px;
+        padding-block: 10px;
+        width: 80%;
+    }
+    input::placeholder{
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    .message{
+        padding-bottom: 60px;
+    }
+    .box5{
+        width: 18%;
+    }
+    .section5{
+        text-align: center;
+    }
+    .logo5{
+        margin: auto;
+        width: 28%;
+    }
+ }
+ @media (max-width: 576px) {
+    .navbar{
+        display: none;   
+    }
+    .navbar1{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+        font-size: 20px;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-family: "PT Serif";
+        position: relative;
+    }
+    #dropdown > li > a{
+        font-size: 14px;
+        padding: 10px 22px;
+        background-color: #b13941;
+
+    }
+    .fa-bars{
+        font-size: 14px;
+    }
+    #dropdown{
+        display: none;
+    }
+    #dropdown:target{
+        display: block;
+    }
+    #h1{
+        font-size: 40px;
+    }
+    #h3{
+        font-size: 14px;
+    }
+    #h2{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .box,.box1,.box5{
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .box1{
+        font-size: 10px;
+    }
+    .voucher{
+        padding-block: 25px;
+    }
+    .content{
+        padding-top: 15px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .img0{
+        width: 50%;
+        margin-left: 50px;
+    }
+    .h2,.h23,.h24,.h25{
+        font-size: 30px;
+    }   
+    .p,.p1{
+        font-size: 12px;
+        padding-top: 24px;
+    }
+    .p2{
+        font-size: 11px;
+        padding-block: 18px;
+    }
+    .h22{
+        font-size: 24px;
+    }   
+    .p4,.p5{
+        font-size: 14px;
+    }
+    .readstory{
+        font-size: 14px;
+        padding-top: 24px;
+    }
+    .content1{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .section,.section5{
+        flex-direction: column;
+    }
+    .Profile{
+        flex-direction: column-reverse;
+        padding-block: 20px;
+    }
+    .section4{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+    }
+    .col-50{
+        width: 100%;
+    }
+    .h21,.h23{
+        font-size: 28px;
+    }
+    .h21,.p1,.cardes{
+        padding-block: 18px;
+    }
+    .cardes,.cardes1{
+        margin-top: 9px;
+        flex-direction: column;
+        padding-bottom: 40px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card,.card1{
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card1{
+        width: 65%;
+    }
+    .card > .col-50{
+        width: 45%;
+    }
+    .box4{
+     top: 50%;
+    }
+    .content2,.content3{
+        text-align: center;
+        align-items: center;
+        margin-top: 1px;
+    }
+    .content3{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo3{
+        font-size: 18px;
+        width: 25%;
+        margin: auto;
+        
+    }
+    .video{
+        width: 90%;
+        margin: auto;
+    }
+    .content3,.map{
+        width: 100%;
+    }
+    input{
+        margin-top: 24px;
+        padding-block: 10px;
+        width: 80%;
+    }
+    input::placeholder{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .message{
+        padding-bottom: 60px;
+    }
+    .box5{
+        width: 23%;
+    }
+    .section5{
+        text-align: center;
+    }
+    .logo5{
+        margin: auto;
+        width: 28%;
+    }
+}

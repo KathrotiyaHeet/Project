@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header,.section1,.section3,.section5{
+    background-color: #b13941;
+}
+.section,.section2{
+    background-color: #feedda;
+}
+nav,.voucher,.Profile{
+    background-image: url(Images/Design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar,.navbar1, a{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: "PT Serif";
+    position: relative;
+}
+.navbar1{
+    justify-content: space-between;
+    width: 90%;
+    font-size: 14px;
+    display: none;
+}
+#dropdown{
+    position: absolute;
+    left: 86%;
+}
+.logo6{
+    width: 50%;
+}
+li{
+    list-style-type: none;
+}
+.background{
+    background-image: url(Images/Coffeebackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: "PT Serif";
+    color: white;
+    width: 100%;
+    padding-block: 50px;
+}
+#h1{
+    font-size: 90px;
+    color: #feedda;
+    padding-bottom: 40px;
+}
+.box,.box1,.box5{
+    padding: 10px 15px;
+    background-color: #b13941;
+    font-size: 20px;
+    text-align: center;
+    display: inline-flex;
+    color: #feedda;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.voucher{
+    display: flex;
+    justify-content: space-around;
+    padding-block: 50px;
+}
+.content{
+    text-align: left;
+    font-family: "PT Serif";
+    color: #feedda;
+    padding-top: 25px;
+}
+.box1{
+    color: #b13941;
+    background-color: #feedda;
+    font-size: 15px;
+}
+#h3{
+    font-size: 28px;
+}
+#h2{
+    font-size: 37px;
+    padding-top: 18px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.col-50{
+    width: 45%;
+}
+.content1{
+    font-family: "PT Serif";
+    text-align: left;
+    color: black;
+    width: 100%;
+    padding-top: 90px;
+}
+.img,.img1,.img2{
+    width: 100%;
+    height: 100%;
+}
+.h2{
+    font-size: 70px;
+}
+.p,.p1{
+    font-size: 20px;
+    padding-top: 40px;
+}
+.readstory{
+    font-size: 22px;
+    color: red;
+    text-decoration: underline;
+    display: block;
+    padding-top: 40px;
+}
+.menu{
+    background-image: url(Images/Design.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: "PT Serif";
+    color: #feedda;
+}
+.h21{
+    font-size: 58px;
+}
+.h21,.p1,.cardes{
+    padding-block: 40px;
+}
+.cardes,.cardes1{
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 90px;
+}
+.card{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    text-align: left;
+    font-family: "PT Serif";
+}
+.h22{
+    margin-top:30px ;
+    font-size: 24px;
+}
+.p2,.p4{
+    margin-top:30px ;
+    font-size: 11px;
+}
+.box2,.box3{
+    margin-top:28px ;
+    background-color: #b13941;
+    color: #feedda;
+    padding: 5px 8px;
+    display: inline-block;
+}
+
+.h23,.p3,.p4{
+    color: #b13941;
+    text-align: center;
+    padding-block: 15px;
+}
+.card1{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 25%;
+    position: relative;
+}
+.box3{
+    margin-bottom: 30px;
+}
+.p4,.p5{
+    font-size: 18px;
+}
+.h23,.h24,.h25{
+    font-size: 58px;
+}
+.box4{
+    background-color: #feedda;
+    color: #b13941;
+    font-size: 18px;
+    font-family: "PT Serif";
+    font-weight: bold;
+    padding: 15px 7px;
+    position: relative;
+    width: 42%;
+    margin-bottom: 90px;
+    bottom: 6%;
+    margin: auto;
+    z-index: 1;        
+}
+box{
+    border: 2px solid #b13941;
+    padding: 7px 20px;
+    
+
+}
+.Profile{
+    background-color: #b13941;
+    color: #feedda;
+    display: flex;
+    justify-content: space-around;
+    padding-block: 90px;
+}
+.content2,.content3{
+    text-align: left;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.logo3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    width: 50%;
+}
+.h24,.p5,.logo3{
+    padding-block: 20px;
+}
+.section4{
+    color: #b13941;
+    display: flex;
+}
+.content3,.map{
+    width: 50%;
+}
+.content3{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+input{
+    margin-top: 50px;
+    padding-block: 18px;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+}
+input::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.message{
+    padding-bottom: 90px;
+}
+.box5{
+    width: 23%;
+}
+.section5{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-block: 30px;
+}
+.logo5{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #feedda;
+    width: 50%;
+    padding-top: 16px;
+}
+.logo3{
+    font-size: 25px;
+}
+.content4{
+    margin-top: 20px;
+}
+h3{
+    color: #feedda;
+}
+h3,.p6,.list > li{
+    padding: 5px;
+}
+.p6{
+    padding-top: 30px;
+}
+.content4 > a{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
