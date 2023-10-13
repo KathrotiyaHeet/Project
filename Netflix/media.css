@@ -1,0 +1,90 @@
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .main-div{
+        flex-direction: column;
+    }
+    .language{
+        margin: 10px;
+        padding: 15px;
+        margin-top: 26px;
+    }
+    .heading h1{
+        font-size: 30px;
+    }
+    .heading p{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .email{
+        width: 50%;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    /* ---------------------------- Page No 2 ------------------------------------- */
+
+    .container{
+        flex-direction: column;
+    }
+    .text-1 h1{
+        font-size: 45px;
+        margin: 15px;
+        text-align: center;
+    }
+    .container p{
+        font-size: 20px;
+        text-align: center;
+        margin: 10px;
+    }
+    .image img{
+        width: 300px;
+        padding-left: 25px;
+        margin-left: 100px;
+    }
+    .image{
+        position: relative;
+        width: 100px;
+        padding: 10px;
+    }
+    .viedo-tag {
+        position: absolute;
+        z-index: 1;
+        top: -16.5px;
+        width: 200px;
+        left: 562.3px;
+        border: 0 solid transparent;
+    }
+    .container-1{
+        margin: 10px;
+        padding: 10px;
+    }
+    .text-2 h1{
+        font-size: 20px;
+        padding: 20px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .text-2 p{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+
+    }
+    .image1{
+        padding: 5px;
+    }
+    .image1 img{
+        width: 250px;
+    }
+    .text img{
+        
+    }
+}
