@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Croissant+One&family=Dancing+Script&family=EB+Garamond:wght@600&family=Fira+Sans:wght@300;400&family=Gentium+Plus&family=Josefin+Sans:wght@700&family=Kanit:wght@200&family=Montserrat:wght@100;300&family=Mooli&family=Open+Sans:wght@300&family=Poppins:wght@500&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    position: fixed; 
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar img {
+    font-size: 50px;
+    margin-top: 18px;
+    margin-right: 100px;
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar li:hover {
+    color: white;
+}
+
+.navbar li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.navbar li:hover::before {
+    transform: scaleX(1);
+}
+
+.navbar li {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Mooli';
+    margin: 22px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+}
+
+.exp-center {
+    margin-left: 600px;
+    margin-top: 10px;
+    border: transparent;
+    height: 45px;
+    cursor: pointer;
+    font-family: 'Mooli';
+}
+
+.order-now {
+    margin-left: 15px;
+    margin-top: 10px;
+    border: transparent;
+    height: 45px;
+    width: 150px;
+    cursor: pointer;
+    background-color: white;
+    font-family: 'Mooli';
+}
+
+.navbar i {
+    margin: 25px;
+    font-size: 25px;
+}
+li .exp {
+    color: green;
+    margin-left: 20px;
+}
+.nevigation-2 li{
+    color: green;
+    margin-left: 50px;
+}
+/* ----------------------------------------- Slide ---------------------------------------------------- */
+
+.carousel-inner img{
+    width: 100%;
+}

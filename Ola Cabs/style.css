@@ -99,11 +99,15 @@
 }
 
 .navbar i {
+    display: none;
     margin-top: 25px;
     margin-left: 20px;
     font-size: 25px;
 }
 
+.fa-bars {
+    display: none;
+}
 .main-div-1 {
     height: 45vh;
     background-image: url(image/herobanner.jpg);
@@ -112,8 +116,6 @@
     background-position: 65%;
     margin-bottom: 150px;
     margin-top: -20px;
-    /* margin-left: -10px; */
-    /* rotate: -1deg; */
 }
 
 .text h1 {
