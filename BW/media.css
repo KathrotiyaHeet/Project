@@ -1,0 +1,102 @@
+/* @media (max-width: 1400px) {} */
+
+/* @media (max-width: 1200px) {} */
+
+/* @media (max-width: 992px) {} */
+
+@media screen and (max-width: 60em) {
+    
+    body{
+        max-height: 100vh;
+        overflow: hidden;
+    }
+    .bg{
+        max-height: 100vh;
+    }
+    #container{
+        overflow: hidden;
+    }
+
+    #circle1 {
+        height: 87vw;
+        width: 87vw;
+        top: -1vw;
+        left: -33vw;
+    }
+
+    #circle2 {
+        height: 87vw;
+        width: 87vw;
+        top: -1vw;
+        left: -35vw;
+    }
+
+    #para p {
+        width: 45%;
+        font-size: 30px;
+        left: 40vw;
+        top: 30vw;
+    }
+
+    #bugsol h1 {
+        margin: 26px;
+        font-size: 40px;
+        left: 38vw;
+        top: 50vw;
+    }
+
+    #photo img {
+        width: 70px;
+        left: 38vw;
+        top: 3vw;
+    }
+
+    .form-tag {
+        display: flex;
+        height: 60vh;
+        margin-top: 50px;
+    }
+
+    form {
+        width: 36vw;
+        top: 12vw;
+        margin-top: 70px;
+    }
+
+    input {
+        width: 80%;
+        margin: 15px;
+        height: 60px;
+        font-size: 15px;
+        padding-left: 48px;
+    }
+    .anchor a {
+        font-size: 15px;
+    }
+    .username i ,  .password i{
+        left: 15%;
+    }
+    #right h1 {
+        padding-top: 60px;
+    }   
+    #reserve{
+        position: absolute;
+        top: 70vw;
+        width: 100%;
+        left: 53vw;
+
+    }
+    
+}
+
+@media screen and (max-width: 40em) {
+    /* #circle1 {
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    #circle2 {
+        height: 50vw;
+        width: 50vw;
+    } */
+}
