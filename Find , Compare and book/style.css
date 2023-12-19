@@ -18,7 +18,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-   
+
 }
 
 a {
@@ -58,32 +58,78 @@ button {
     margin-left: 15px;
     justify-content: center;
     align-items: center;
+    background-color: #149BFC;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
 .login button {
     border-radius: 4px;
-    background: #149BFC;
+    /* background: #149BFC; */
     margin-left: 50px;
 }
 
+
 /* ------------------------------------------------ Page No 1 CSS --------------------------------------------------  */
 
-.image img{
+.image img {
     width: 1536px;
 }
-.contant{
+
+.contant {
     position: relative;
 }
-.layout{
-    position: absolute;
-    top: 30vh;
-    left: 45vh;
-    /* display: flex; */
-    background-color: #7e878e;
-    height: 100px;
-    width: 900px;
-    padding: 32px;
+
+.home-frm {
+    margin: 10px;
+    display: flex;
+    gap: 50px;
 }
 
-#from {
+.layout {
+    position: absolute;
+    top: 26vh;
+    left: 28vh;
+    background-color: #fff;
+    height: 140px;
+    width: 1200px;
+    padding: 21px;
+    -webkit-box-shadow: 1px 1px 102px 4px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 1px 1px 102px 4px rgba(0, 0, 0, 0.64);
+    box-shadow: 1px 1px 102px 4px rgba(0, 0, 0, 0.64);
+}
+
+#transfer img {
+    cursor: pointer;
+}
+
+.frm-to {
+    display: flex;
+}
+
+.text-in-frm p {
+    margin-left: 10px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+input {
+    height: 40px;
+}
+
+.text-in-to p {
+    position: absolute;
+    left: 61vh;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
