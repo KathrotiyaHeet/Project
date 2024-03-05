@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-nav ul li a {
+    margin-left: 20vw;
+}
+
+.navbar-brand {
+    margin: 10px;
+}
+
+.navbar-nav {
+    color: black;
+}
+
+.navbar-brand a{
+    font-weight: 700;
+}
