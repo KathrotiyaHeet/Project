@@ -973,7 +973,7 @@ main {
   margin-bottom: 25px;
 }
 
-.filter-select {
+/* .filter-select {
   background: var(--eerie-black-2);
   color: var(--light-gray);
   display: flex;
@@ -985,7 +985,7 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
-}
+} */
 
 .filter-select.active .select-icon {
   transform: rotate(0.5turn);
