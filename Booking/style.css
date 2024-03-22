@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .navbar {
@@ -22,6 +23,51 @@
     color: black;
 }
 
-.navbar-brand a{
+.navbar-brand a {
     font-weight: 700;
+}
+
+.image-wraper {
+    background-image: url('Image/home-page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.text-section {
+    position: absolute;
+    top: 16rem;
+    left: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+    line-height: 10px;
+}
+
+.heading p {
+    font-size: 2.5rem;
+}
+
+.collection h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.para p{
+    width: 40%;
+    line-height: 25px;
+}
+
+.product-section{
+    margin: 50px;
+    text-align: center;
+}
+
+.coll-30 h2{
+    font-weight: 800;
+}
+.coll-50 p{
+    font-size: 20px;
 }
