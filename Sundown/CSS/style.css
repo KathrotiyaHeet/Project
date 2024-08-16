@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+}
+
+.page-1 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 0 2vw;
+}
+
+nav {
+    padding: 2vw 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-sec {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav-sec h4 {
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid #8a8a8aa6;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000c3;
+    font-size: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all ease 0.4s;
+}
+
+.nav-sec h4 a {
+    text-decoration: none;
+    color: #000000c3;
+    position: relative;
+    z-index: 9;
+}
+
+.nav-sec h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50px;
+    transition: all ease 0.4s;
+}
+
+.nav-sec h4:hover::after {
+    bottom: 0;
+}
+
+.nav-sec h4 a:hover {
+    color: white;
+}
+
+nav h3 {
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 65vh;
+    width: 100%;
+    border-bottom: 1px solid #898886;
+    padding-bottom: 2.5vw;
+}
+
+.center h1 {
+    font-size: 7.5vw;
+    line-height: 6.2vw;
+    text-align: right;
+}
+
+.left h3 {
+    width: 25vw;
+    line-height: 2vw;
+    font-size: 1.8vw;
+}
+
+
+.page-1 video {
+    position: relative;
+    border-radius: 30px;
+    width: 100%;
+    margin-top: 4vw;
+}
+
+.hero-shape {
+    position: absolute;
+    width: 46vw;
+    height: 36vw;
+    right: 0;
+    top: 72vh;
+}
+
+.shape-1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fe320a;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    filter: blur(20px);
+    position: absolute;
+}
+
+.shape-2 {
+    width: 30vw;
+    height: 30vw;
+    background-color: #fe320a;
+    filter: blur(20px);
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.shape-3 {
+    width: 30vw;
+    height: 30vw;
+    background: linear-gradient(#fe320a, #fe570ad8);
+    filter: blur(30px);
+    border-radius: 50%;
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes anime {
+    from {
+        transform: translate(50%, -3%);
+    }
+
+    to {
+        transform: translate(0%, 10%);
+    }
+}
+
+@keyframes anime1 {
+    from {
+        transform: translate(5%, -5%);
+    }
+
+    to {
+        transform: translate(-20%, 20%);
+    }
+}
+
+/* ---------------- Page No 3 -------------- */
+
+.page-2 {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 7vw 0.5vw;
+}
+
+.moving-text {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.moving-text::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes moving {
+    from {
+        transform: translate(0);
+    }
+
+    to {
+        transform: translate(-100%);
+    }
+}
+
+.text {
+    display: inline-block;
+    white-space: nowrap;
+    animation-name: moving;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.moving-text h1 {
+    font-size: 8vw;
+    display: inline-block;
+}
+
+.goal {
+    height: 4vw;
+    width: 4vw;
+    background-color: #fe320a;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 1vw 2vw;
+}
+
+.page-bottom {
+    height: 80vh;
+    width: 100%;
+    padding: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-bottom h1 {
+    font-size: 3.5vw;
+    width: 50%;
+    line-height: 3.5vw;
+    position: relative;
+    z-index: 9;
+}
+
+.image-wrapper {
+    width: 25%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.image-wrapper p {
+    font-weight: 400;
+    margin-top: 2vw;
+    text-align: justify;
+    line-height: 1.7vw;
+}
+
+.page-2 .bottom-shape {
+    position: absolute;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    background-color: #fe320a;
+    background: linear-gradient(to top, #fe320a, #fe630a);
+    top: 58%;
+    left: 15%;
+    filter: blur(20px);
+
+    animation-name: shape;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes shape {
+    from {
+        transform: translate(10%, -10%) skew();
+    }
+
+    to {
+        transform: translate(-10%, 10%) skew(-12deg);
+    }
+}
+
+/* ----------------- Page No 3 ----------------- */
+
+.page-3 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+
+.elem {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.elem h2 {
+    font-size: 3vw;
+    position: absolute;
+    z-index: 9;
+}
+
+.elem .overlay {
+    background-color: #ff9831;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -100%;
+    transition: all ease 0.3s;
+}
+
+.elem:hover .overlay {
+    top: 0;
+}
+
+.fixed-image {
+    height: 30vw;
+    width: 23vw;
+    /* background-color: red; */
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    top: 25%;
+    left: 50%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+}
+
+/* --------------- Page No 4 ------------------ */
+
+.page-4 {
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 5vw;
+}
+
+/* ---------------------  Swiper --------------------- */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ------------------- End Swiper ----------------- */
+
+.page-5 {
+    height: 100vh;
+    width: 100%;
+}
+
+.footer-content {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.footer-content h1 {
+    font-size: 20vw;
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid #808080;
+}
+
+.footer-top {
+    height: 25vh;
+    width: 100%;
+    /* background-color: #898886; */
+    padding: 2vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt h2 {
+    line-height: 2vw;
+}
+
+.frm {
+    position: relative;
+}
+
+.frm p {
+    margin-bottom: 1vw;
+    line-height: 2vw;
+}
+
+.footer-bottom {
+    height: 20vh;
+    width: 100%;
+    /* background-color: #898886; */
+}
+
+.email {
+    display: flex;
+    position: relative;
+}
+
+.email i {
+    position: absolute;
+    right: 0;
+    top: 1vw;
+}
+
+.email input {
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    padding: 1vw;
+    border: transparent;
+    background: transparent;
+    border-bottom: 1px solid #808080;
+}
+
+::placeholder {
+    font-size: 1.1vw;
+    color: #fff;
+}
+
+.full-scr {
+    height: 100vh;
+    width: 100%;
+    background-color: #0000008e;
+    position: fixed;
+    z-index: 99;
+    top: -100%;
+    transition: all ease 0.5s;
+}
+
+.toggle-nav {
+    height: 50%;
+    widows: 100%;
+    background-color: #EFEAE3;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.toggle-nav h4 a {
+    display: none;
+}
