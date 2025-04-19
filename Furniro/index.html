@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
+    <title>Furniro Wodden</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="nav">
+                <div class="nav-link-left">
+                    <img src="Image/logo.png" alt="">
+                    <h1>Furniro</h1>
+                </div>
+                <div class="nav-link-center">
+                    <a href="index.html" class="nav-center-link">Home</a>
+                    <a href="about.html" class="nav-center-link">About</a>
+                    <a href="products.html" class="nav-center-link">Shop</a>
+                    <a href="contact.html" class="nav-center-link">Contact</a>
+                </div>
+                <div class="nav-link-right">
+                    <div class="user nav-right-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="6" r="4" />
+                                <path d="M20 17.5c0 2.485 0 4.5-8 4.5s-8-2.015-8-4.5S7.582 13 12 13s8 2.015 8 4.5Z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="search nav-right-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5" d="m17 17l4 4M3 11a8 8 0 1 0 16 0a8 8 0 0 0-16 0" />
+                        </svg>
+                    </div>
+                    <div class="heart nav-right-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" fill-rule="evenodd"
+                                d="M5.624 4.424C3.965 5.182 2.75 6.986 2.75 9.137c0 2.197.9 3.891 2.188 5.343c1.063 1.196 2.349 2.188 3.603 3.154q.448.345.885.688c.526.415.995.778 1.448 1.043s.816.385 1.126.385s.674-.12 1.126-.385c.453-.265.922-.628 1.448-1.043q.437-.344.885-.687c1.254-.968 2.54-1.959 3.603-3.155c1.289-1.452 2.188-3.146 2.188-5.343c0-2.15-1.215-3.955-2.874-4.713c-1.612-.737-3.778-.542-5.836 1.597a.75.75 0 0 1-1.08 0C9.402 3.882 7.236 3.687 5.624 4.424M12 4.46C9.688 2.39 7.099 2.1 5 3.059C2.786 4.074 1.25 6.426 1.25 9.138c0 2.665 1.11 4.699 2.567 6.339c1.166 1.313 2.593 2.412 3.854 3.382q.43.33.826.642c.513.404 1.063.834 1.62 1.16s1.193.59 1.883.59s1.326-.265 1.883-.59c.558-.326 1.107-.756 1.62-1.16q.396-.312.826-.642c1.26-.97 2.688-2.07 3.854-3.382c1.457-1.64 2.567-3.674 2.567-6.339c0-2.712-1.535-5.064-3.75-6.077c-2.099-.96-4.688-.67-7 1.399"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="cart nav-right-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="1.5">
+                                <path fill="currentColor"
+                                    d="M19.5 22a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m-10 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3" />
+                                <path
+                                    d="M5 4h17l-2 11H7zm0 0c-.167-.667-1-2-3-2m18 13H5.23c-1.784 0-2.73.781-2.73 2s.946 2 2.73 2H19.5" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="toggle-menu" onclick="toggleMenu()">
+                    <div class="menu-icon">
+                        <svg class="open-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" d="M10 6h10M4 12h16M7 12h13M4 18h10" />
+                        </svg>
+
+                        <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+                        </svg>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="mobile-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Shop</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="banner">
+                <div class="banner-section">
+                    <div class="banner-heading">
+                        <p>New Arrival</p>
+                        <h1>Discover Our <br> New Collection</h1>
+                    </div>
+                    <div class="banner-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
+                            ullamcorper mattis.</p>
+                    </div>
+                    <div class="banner-btn">
+                        <button>BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Browse The Range Section -->
+        <section class="browse-the-range">
+            <div class="browse-heading">
+                <h1>Browse The Range</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="image-wrapper">
+                <div class="left-wrapper">
+                    <img src="/Image/dinning.png" alt="Dining Table">
+                    <h2>Dining</h2>
+                </div>
+                <div class="center-wrapper">
+                    <img src="/Image/living.png" alt="Living">
+                    <h2>Living</h2>
+                </div>
+                <div class="right-wrapper">
+                    <img src="/Image/bedroom.png" alt="Bedroom">
+                    <h2>Bedroom</h2>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>

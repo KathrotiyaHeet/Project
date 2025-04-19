@@ -1,0 +1,158 @@
+@media (max-width: 1200px) {
+    .banner {
+        padding: 2rem;
+    }
+
+    .banner-section {
+        width: 500px;
+        padding: 2.5rem 2rem;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 2.8rem;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .nav-link-center {
+        gap: 15px;
+    }
+
+    .nav-link-right {
+        gap: 25px;
+    }
+
+    .banner-section {
+        width: 400px;
+        padding: 2rem 1.5rem;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+
+    .banner-section .banner-content p {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .banner-section .banner-btn button {
+        padding: 1.2rem 2.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Nav */
+@media (max-width: 768px) {
+    .nav-link-center,
+    .nav-link-right {
+        display: none;
+    }
+
+    .toggle-menu {
+        display: block;
+    }
+
+
+    header nav {
+        padding: 1em 1rem;
+    }
+
+    .nav-link-right {
+        gap: 20px;
+    }
+
+    .banner {
+        justify-content: center;
+    }
+
+    .banner-section {
+        width: 90%;
+        padding: 2rem;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 2.2rem;
+        line-height: 40px;
+    }
+
+    .browse-heading h1 {
+        font-size: 2em;
+    }
+
+    .browse-heading p {
+        font-size: 0.9em;
+    }
+
+    .image-wrapper img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-link-left h1 {
+        font-size: 1.8rem;
+    }
+
+    .nav-link-left img {
+        width: 40px;
+    }
+
+    .nav-link-right {
+        gap: 15px;
+    }
+
+    .banner-section {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    .banner-section .banner-heading p {
+        font-size: 0.9rem;
+        letter-spacing: 2px;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 1.8rem;
+        line-height: 35px;
+    }
+
+    .banner-section .banner-content p {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .banner-section .banner-btn button {
+        padding: 1rem 2rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .nav-link-left h1 {
+        font-size: 1.6rem;
+    }
+
+    .banner-section .banner-heading h1 {
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+
+    .browse-heading h1 {
+        font-size: 1.8em;
+    }
+
+    .browse-heading p {
+        font-size: 0.8em;
+    }
+
+    .image-wrapper img {
+        max-width: 150px;
+    }
+}
